@@ -1,5 +1,3 @@
-$ curl -X POST "https://api.mapbox.com/datasets/v1/sales-operations?access_token=YOUR MAPBOX ACCESS TOKEN
-This endpoint requires a token with datasets:write scope.
-" \
+$ curl -X POST "https://api.mapbox.com/datasets/v1/sales-operations?access_token=pk.eyJ1Ijoic2FsZXMtb3BlcmF0aW9ucyIsImEiOiJjazVwcmlqd3gwZ2t5M21xaHRlMTZiYW1pIn0.5Kmp5oHFL5xpbrxqF_yWLw" \
   -d @request.json \
   --header "Content-Type:application/json
